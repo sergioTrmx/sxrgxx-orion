@@ -1,10 +1,10 @@
-const ownerNumber = ["557187645787@s.whatsapp.net"] 
+const ownerNumber = ["5215623741080@s.whatsapp.net"] 
 // mude somente o numero e não tire o @s.whatsapp.net
 
-const OriginalOwner = '557187645787' 
+const OriginalOwner = '5215623741080' 
 // mude para seu numero
 
-const callbotmsgs = ['orion', 'brizas']
+const callbotmsgs = ['orion', 'sxrgxx']
 
 var gimagenotregister = false
 // quando não há comando registrado o bot procura no google image
@@ -33,7 +33,7 @@ const delaygamescmd = 60
 //tempo de delay dos comandos de games (medido por segundos)
 
 const msgwelcomeimg = (numero, groupname) => {
-    return `Seja bem-vindo ${numero}\n\nEscreve ${prefix}menu para lista de comandos`
+    return `Sea bienvenido ${numero}\n\nEscreve ${prefix}menu para lista de comandos`
 }
 //Texto de boas vindas na imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
@@ -45,7 +45,7 @@ const byemsgimg = (numero, groupname) => {
 //Obs: não coloque o texto longo para a imagem não sumir
 
 const menumsgimg = (numero, groupname, battery) => {
-    return `MENU DO BRIZAS-BOT COM 434 COMANDOS, BATERIA: ${battery}`
+    return `MENU DO Sxrgxx-BOT COM 434 COMANDOS, BATERIA: ${battery}`
 }
 //Texto no menu da imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
@@ -69,21 +69,21 @@ const backgroundbyeimg = `https://i.imgur.com/2TCj9ri.jpg`
 const apikeyimgbb = 'c9cf132756510ad171587fb5a5a0389f'
 // sua key do imgbb para ativar o antiporn e mais alguns comando que necessita de baixar imagem
 
-const cr = '☄️✨𝑩𝑹⃟𝑰𝒁𝑨𝑺 𝑶⃟𝑹𝑰𝑶𝑵✨☄️\n' 
+const cr = '𝙎𝙭𝙧𝙜𝙭𝙭 𝙊𝙧𝙞𝙤𝙣🇲🇽\n' 
 // texto do simbolo de verificado
 
 const prefix = '!' 
 // prefixo
 
-const blockedmsg = '*😜 Seu número esta bloqueado, ou seja não ouvindo você 😜*'
+const blockedmsg = '*😜 Seu número esta bloqueado😜*'
 // mensagem quando alguem bloqueado solicita um comando
 
-const blockedcmdmsg = '*🚫Este comando esta bloqueado contate o propitetário do bot para saber o pq🚫*'
+const blockedcmdmsg = '*🚫Este comando esta bloqueado contacte con el creador🚫*'
 // mensagem quando alguem solicita um comando bloqueado 
 
 // MENSAGENS DE BAN
 
-const banmsgtype = '*Corra membro comum, o ban estar próximo*'
+const banmsgtype = '*Mamaste jotito💢*'
 // mensagem de ban no anti tipos de mensagem
 
 const ativohelp = `O sistema de contagem de mensagens é por grupo e consiste em rankear, listar, remover pessoas de acordo
@@ -106,10 +106,10 @@ const banmsgporn = 'Hmmm pornozinho com antiporn ativado, ja sabe né...'
 const adminmsgporn = '*Tu é adm ent n vou te banir por mandar porn*'
 // mensagem de quando adm manda porn com antiporn ativado
 
-const banmsglink = 'Corra Membro comum, O ban está próximo...'
+const banmsglink = 'Valiste verga, te vamos a llenar de binarios 😈💢...'
 // mensagem de ban no antilink
 
-const adminmsglink = 'Isso é um link amigo... ah é tu é adm ent pode kkkk 🙃'
+const adminmsglink = 'links bloqueados bro te salvaste por ser admn 🙃'
 // mensagem de quando adm manda link
 
 const adminmsgpalavra = 'isso esta na lista das palavras proibidas pelo bot'
@@ -138,10 +138,10 @@ const textmsgnig = 'Konbanwa Onii-chan, espero que tenha tido um bom dia ☺️'
 
 // MENSAGENS DE ERRO
 
-const msgerr = 'Deu erro, tente novamente :/'
+const msgerr = 'Error, intenta de nuevo:/'
 // mensagem de erro
 
-const notregister = `*Comando não registrado, escreva ${prefix}menu para ver a lista de comandos*`
+const notregister = `*Comando no registrado, escreva ${prefix}menu para ver a lista de comandos*`
 
 // MENSAGENS DE AUTOREPLY
 
@@ -162,18 +162,18 @@ const numbotfeio = 'senhora sua mãe 😡'
 
 // MENSAGENS DE EXCLUSIVIDADE
 let mess = {
-    wait: '⌛ Aguarde um pouco... ⌛',
-    success: '✔️ Sucesso! ✔️',
+    wait: '⌛ Espera un poco... ⌛',
+    success: '✔️ Listo! ✔️',
     error: {
-        stick: '❌ Falha, ocorreu um erro ao converter a imagem em um adesivo ❌',
+        stick: '❌ Error al convertir a sticker❌',
         Iv: '❌ Link inválido ❌'
     },
     only: {
-        group: '❌ Este comando só pode ser usado em grupos! ❌',
-        ownerG: '❌ Este comando só pode ser usado pelo grupo proprietário! ❌',
-        ownerB: '❌ Este comando só pode ser usado pelo número proprietário! ❌',
-        admin: '❌ SILÊNCIO MEMBRO COMUM VC N TEM MORAL PRA USAR ESSE COMANDO ❌',
-        Badmin: '❌ Este comando só pode ser usado quando o bot se torna administrador! ❌'
+        group: '❌ Este comando solo puede ser usado em grupos! ❌',
+        ownerG: '❌ Este comando só pode ser usado por el creador! ❌',
+        ownerB: '❌ Este comando só pode ser usado por proprietário! ❌',
+        admin: '❌ Solo los admins pueden usar este comando ❌',
+        Badmin: '❌ Este comando solo se puede usar cuando el bot es admin! ❌'
     }
 }
 
@@ -181,9 +181,9 @@ let mess = {
 
 const vcard = 'BEGIN:VCARD\n' 
 + 'VERSION:3.0\n' 
-+ 'FN:Meu criador^~^\n' 
++ 'FN:Sergio^~^\n' 
 + 'ORG:Ian;\n' 
-+ 'TEL;type=CELL;type=VOICE;waid=557187645787:+55 71 8764-5787\n' 
++ 'TEL;type=CELL;type=VOICE;waid=380944218564:+380 94 421 8564\n' 
 + 'END:VCARD'
 //vcard do propietário, mude os numeros de acordo com o formato que
 //ele corresponde
