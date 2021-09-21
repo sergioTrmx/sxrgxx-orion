@@ -1,12 +1,12 @@
 const tttme = (pushname, userWins, userDefeats, userTies, userPoints) => {
-  return `┏═══🔥*SEU STATUS*🔥═══┓
+  return `┏═══🔥*ESTADISTICAS*🔥═══┓
 ║ 
 ║ *User: ${pushname}* 
 ║
 ║ ➻❥ *Vitórias: ${userWins}* 
 ║ ➻❥ *Derrotas: ${userDefeats}*
 ║ ➻❥ *Empates : ${userTies}*
-║ ➻❥ *Pontos  : ${userPoints}*
+║ ➻❥ *Puntos  : ${userPoints}*
 ║
 ┗═══════════════════┛`
 }
