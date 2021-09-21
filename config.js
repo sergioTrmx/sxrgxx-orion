@@ -50,7 +50,7 @@ const menumsgimg = (numero, groupname, battery) => {
 //Texto no menu da imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
 
-const titlemenumsgimg = 'BEM-VINDO'
+const titlemenumsgimg = 'Bienvenido'
 //Título no menu da imagem quando welcome esta ativado
 //Obs: não coloque o texto longo para a imagem não sumir
 
@@ -75,7 +75,7 @@ const cr = '𝙎𝙭𝙧𝙜𝙭𝙭 𝙊𝙧𝙞𝙤𝙣🇲🇽\n'
 const prefix = '!' 
 // prefixo
 
-const blockedmsg = '*😜 Seu número esta bloqueado😜*'
+const blockedmsg = '*😜 Su número esta bloqueado😜*'
 // mensagem quando alguem bloqueado solicita um comando
 
 const blockedcmdmsg = '*🚫Este comando esta bloqueado contacte con el creador🚫*'
@@ -86,14 +86,13 @@ const blockedcmdmsg = '*🚫Este comando esta bloqueado contacte con el creador�
 const banmsgtype = '*Mamaste jotito💢*'
 // mensagem de ban no anti tipos de mensagem
 
-const ativohelp = `O sistema de contagem de mensagens é por grupo e consiste em rankear, listar, remover pessoas de acordo
-com a frequência de mensagens no grupo, veja abaixo os comandos para administrar as mensagens do grupo:
+const ativohelp = `El sistema de recuento de mensajes es por grupo y consiste en clasificar, enumerar y eliminar personas en consecuencia. con la frecuencia de mensajes en el grupo, vea a continuación los comandos para administrar los mensajes del grupo:
 
-checkativo (marcar) - lista a frequência de mensagens do membro marcado
-rankativo - rankea as pessoas mais ativas do grupo
-banativos (num) - remove membros com uma certa qnt de numeros de msg pra baixo
-filtroativo (num) - lista membros com uma certa qnt de numeros de msg pra baixo]
-atividade - lista a atividade de todos membros do grupo
+checkativo (marcar) - enumera la frecuencia del mensaje del miembro marcado
+rankativo - rankea a las personas mas activas del grupo
+banativos (num) - eliminar miembros con una cierta cantidad de números de msg hacia abajo
+filtroativo (num) - lista miembros con una cantidad de mensajes para abajo]
+atividade - lista actividad de todos los miembros del grupo
 
 Obs: O número de mensagens pode estar impreciso devido a contagem ser pelo bot.`
 
@@ -188,51 +187,49 @@ const vcard = 'BEGIN:VCARD\n'
 //vcard do propietário, mude os numeros de acordo com o formato que
 //ele corresponde
 
-const gpvotohelp = `O sistema de voto gp consiste no sistema normal de voto, porém feito somente para grupos
-veja abaixo os comandos e suas funções a seguir:
+const gpvotohelp = `El sistema de votación gp consiste en el sistema de votación normal, pero solo para grupos. vea a continuación los comandos y sus funciones a continuación:
 
 ${prefix}gpinitvoto
-${prefix}gpvotoinit - Inicia a votação em grupo
-Ex: ${prefix}gpvotoinit tema | opção 1 | opção 2
-Obs: pode acrescentar quantas opções quiser
+${prefix}gpvotoinit - Inicia la votacion en grupo
+Ex: ${prefix}gpvotoinit tema | opcion1 | opcion2
+Obs: puedes crear las opciones que quieras 
 
 ${prefix}gpclearvoto
-${prefix}gpvotoclear - Limpa todos os votos
+${prefix}gpvotoclear - Limpia todos los votos
 
 ${prefix}gpvotostatus
-${prefix}gpstatusvoto - Vê o status atual do voto
+${prefix}gpstatusvoto - Ve las estadisticas actuales de los votos
 
-${prefix}gpvoto - Vota em uma opção
-Ex: ${prefix}gpvoto opção1
+${prefix}gpvoto - Vota en una opcion
+Ex: ${prefix}gpvoto opcion1
 
 ${prefix}gpvotofinish
-${prefix}gpfinishvoto - Encerra a votação
+${prefix}gpfinishvoto - Termina las votaciones 
 
 ${prefix}gpbroadvoto
-${prefix}gpvotobroad - Faz uma transmissão da votação para todos membros do grupo`
+${prefix}gpvotobroad - hace una transmicion al grupo de los votos`
 
-const votohelp = `O sistema de voto consistem em todos os usuários do bot poderem votar e para ter uma boa
-experiência, há comandos para administrar essa votação. Veja abaixo os comandos e suas funções a seguir:
+const votohelp = `El sistema de votación consiste en que todos los usuarios del bot puedan votar y tener una buena experiencia, hay comandos para administrar esta encuesta. Vea a continuación los comandos y sus funciones a continuación:
 
 ${prefix}initvoto
-${prefix}votoinit - Inicia a votação geral
-Ex: ${prefix}votoinit tema | opção 1 | opção 2
-Obs: pode acrescentar quantas opções quiser
+${prefix}votoinit - Inicia votacion general
+Ex: ${prefix}votoinit tema | opcion1 | opcion2
+Obs: puedes crear las opciones que quieras 
 
 ${prefix}clearvoto
-${prefix}votoclear - Limpa todos os votos
+${prefix}votoclear - Limpia todos los votos
 
 ${prefix}votostatus
-${prefix}statusvoto - Vê o status atual do voto
+${prefix}statusvoto - Ve estadisticas de los votos
 
-${prefix}voto - Vota em uma opção
-Ex: ${prefix}voto opção1
+${prefix}voto - Vota una opcion
+Ex: ${prefix}voto opcion
 
 ${prefix}votofinish
-${prefix}finishvoto - Encerra a votação
+${prefix}finishvoto - Terminan votaciones
 
 ${prefix}broadvoto
-${prefix}votobroad - Faz uma transmissão da votação para todos que usam o bot`
+${prefix}votobroad - hace una transmisión al grupo de los votos`
 
 // Nem ouse mexer aqui se n quiser que de erro
 exports.delaygamescmd = delaygamescmd
