@@ -15,7 +15,7 @@ return `
 ┃ 🤖Creador: wa.me/525623741080
 ┃
 ┃ 🪀𝐆𝐫𝐮𝐩𝐨:
-┃ 🌐 https://chat.whatsapp.com/DW9LNS0N3EQK0vv0ywGg51
+┃ 🌐 https://chat.whatsapp.com/KbajMZ7UQCT7gCvZUC3V9r
 ┃
 ┃ 📹𝐘𝐨𝐮𝐭𝐮𝐛𝐞:
 ┃ http://ຯ❏͜ᰰ🍡۪۪ị¡-𝕾𝖝𝖗𝖌𝖝𝖝.li
